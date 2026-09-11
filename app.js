@@ -33,5 +33,5 @@ async function copyCa(value) {
 }
 
 document.querySelectorAll(".copy-ca").forEach((button) => {
-  button.addEventListener("click", () => copyCa(button.dataset.ca || "0xcomingsoon"));
+  button.addEventListener("click", () => copyCa(button.dataset.ca || "0x61507223B3f394e849A921898C8631EeC65bb8cD"));
 });
